@@ -71,7 +71,7 @@ public class ItemManager : MonoBehaviour
         if (gm.isDead)
         {
             col.isTrigger = true;
-            GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+            GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
             GetComponent<Rigidbody2D>().angularVelocity = 0.0f;
         }
     }

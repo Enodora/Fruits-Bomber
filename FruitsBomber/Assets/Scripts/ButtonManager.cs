@@ -8,7 +8,7 @@ public class ButtonManager : MonoBehaviour
 {
     public GameObject pauseCanvas;
     public GameObject continueText;
-    public GameObject WatchToContinue;
+    // public GameObject WatchToContinue;
 
     private GameObject gmObject;
     private GameManager gm = null;
@@ -30,16 +30,16 @@ public class ButtonManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        if (PlayerPrefs.GetInt("CONTINUECOUNTER") == 0)
-        {
-            WatchToContinue.SetActive(true);
-        }
-        else
-        {
-            WatchToContinue.SetActive(false);
-        }
-        
+
+        // if (PlayerPrefs.GetInt("CONTINUECOUNTER") == 0)
+        // {
+        //     WatchToContinue.SetActive(true);
+        // }
+        // else
+        // {
+        //     WatchToContinue.SetActive(false);
+        // }
+
         if (!watchedAd)
         {
             continueText.SetActive(false);
@@ -51,7 +51,7 @@ public class ButtonManager : MonoBehaviour
         sm.resetScore();
         gm.resetSpeed();
         PlayerPrefs.SetInt("CONTINUECOUNTER", 0);
-        WatchToContinue.SetActive(true);
+        // WatchToContinue.SetActive(true);
         sm.scoreRemain.SetActive(false);
         SceneManager.LoadScene("Stage1");
     }

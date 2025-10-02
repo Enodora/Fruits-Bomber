@@ -37,11 +37,11 @@ public class GameOverManager : MonoBehaviour
             GameObject existSafe = GameObject.FindGameObjectWithTag("safe");
             if (existSafe == null)
             {
-                if(msUI.moveUIDone)
+                if (msUI.moveUIDone)
                 {
                     gameOverCanvas.SetActive(true);
 
-                    GoogleAdMobController.AdmobManager.ShowInterstitialAd();
+                    // GoogleAdMobController.AdmobManager.ShowInterstitialAd();
                 }
             }
         }

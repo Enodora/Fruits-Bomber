@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public float timerInterval;
-    private float timer =15;
+    private float timer = 15;
     public float speed = 5.0f;
     private float firstInterval = 3.0f;
     private float secondInterval = 2.0f;
@@ -55,7 +55,8 @@ public class GameManager : MonoBehaviour
             timer = timerInterval;
             isFirst = false;
             isSecond = true;
-        } else if (timer <= 0 && !isDead && isSecond)
+        }
+        else if (timer <= 0 && !isDead && isSecond)
         {
             CancelInvoke("Spawn");
             InvokeRepeating("Spawn", 0.1f, secondInterval);

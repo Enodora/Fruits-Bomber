@@ -1,0 +1,5 @@
+C:/Users/atsus/Desktop/Unity/Unity Projects/Fruits-Bomber/FruitsBomber/.utmp/Debug/2w6a4z25/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/atsus/Desktop/Unity/Unity Projects/Fruits-Bomber/FruitsBomber/.utmp/Debug/2w6a4z25/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+C:/Users/atsus/Desktop/Unity/Unity Projects/Fruits-Bomber/FruitsBomber/.utmp/Debug/2w6a4z25/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/Users/atsus/Desktop/Unity/Unity Projects/Fruits-Bomber/FruitsBomber/.utmp/Debug/2w6a4z25/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+C:/Users/atsus/Desktop/Unity/Unity Projects/Fruits-Bomber/FruitsBomber/.utmp/Debug/2w6a4z25/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir
