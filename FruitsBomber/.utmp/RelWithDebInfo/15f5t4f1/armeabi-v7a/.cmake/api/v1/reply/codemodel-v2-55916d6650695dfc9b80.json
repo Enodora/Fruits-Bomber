@@ -66,7 +66,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "swappywrapper::@7e25bd1f32ce224db4e9",
-					"jsonFile" : "target-swappywrapper-RelWithDebInfo-fad0cff8fdfa9eca8483.json",
+					"jsonFile" : "target-swappywrapper-RelWithDebInfo-1649050f377871375bdd.json",
 					"name" : "swappywrapper",
 					"projectIndex" : 1
 				}
@@ -76,7 +76,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/atsus/Desktop/Unity/Unity Projects/Fruits-Bomber/FruitsBomber/.utmp/RelWithDebInfo/15f5t4f1/arm64-v8a",
+		"build" : "C:/Users/atsus/Desktop/Unity/Unity Projects/Fruits-Bomber/FruitsBomber/.utmp/RelWithDebInfo/15f5t4f1/armeabi-v7a",
 		"source" : "C:/Users/atsus/Desktop/Unity/Unity Projects/Fruits-Bomber/FruitsBomber/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp"
 	},
 	"version" : 
